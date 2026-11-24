@@ -1,0 +1,9 @@
+[package]
+name = "dnssec-from-scratch"
+version = "0.1.0"
+edition = "2021"
+description = "Standalone DNSSEC chain-of-trust validator, NSEC/NSEC3 verifier, and local tampering lab written from scratch in Rust."
+license = "MIT"
+
+[dependencies]
+ring = "0.17.14"
